@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\components">
+      <UniqueIdentifier>{93bce990-bcaa-439d-a18c-63d1dbd408a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\components\render">
+      <UniqueIdentifier>{95a4166a-4f69-4502-b219-fa9134d463ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="controller_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="asteroid_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_collision_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="player_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="render_component.cpp">
+      <Filter>source\components\render</Filter>
+    </ClCompile>
+    <ClCompile Include="text_component.cpp">
+      <Filter>source\components\render</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_component.cpp">
+      <Filter>source\components\render</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_animation_component.cpp">
+      <Filter>source\components\render</Filter>
+    </ClCompile>
+    <ClCompile Include="emitter_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_component.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="controller_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="asteroid_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_collision_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="player_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="render_component.h">
+      <Filter>source\components\render</Filter>
+    </ClInclude>
+    <ClInclude Include="text_component.h">
+      <Filter>source\components\render</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_component.h">
+      <Filter>source\components\render</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_animation_component.h">
+      <Filter>source\components\render</Filter>
+    </ClInclude>
+    <ClInclude Include="emitter_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+    <ClInclude Include="animation_component.h">
+      <Filter>source\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
